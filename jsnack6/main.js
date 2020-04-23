@@ -3,9 +3,9 @@ var massimoRisultato = 1000;
 console.log(massimoRisultato);
 
 
- for (var i = 0; i < massimoRisultato; i++) {
+ for (var i = 0; Math.pow (2, i) < massimoRisultato; i++) {
      var potenze = Math.pow (2, i);
-     if (potenze <= massimoRisultato) {
+
          console.log(potenze);
-     }
+
  }
